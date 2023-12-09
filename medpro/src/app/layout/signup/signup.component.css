@@ -1,0 +1,11 @@
+input[type="text"],
+input[type="Password"],
+input[type="date"],
+input[type="number"],
+textarea {
+  border: none;
+  border-bottom: 2px solid #E22D55;
+  width: 100%;
+  padding: 8px 0;
+  margin: 10px 0;
+}

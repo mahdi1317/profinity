@@ -1,0 +1,80 @@
+<!-- Navbar -->
+<div class="row mb-5 ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow fixed-top">
+      <!-- Container wrapper -->
+      <div class="navbar-brand d-flex  my-auto  col-md-2  mt-lg-0" >
+        <a routerLink="home">
+        <img src="assets/logo.png"  alt="PROFINITY" class="img-fluid w-75"  loading="lazy"/>
+      </a>
+    </div>
+    
+    <div  type="button"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="true"
+    aria-label="Toggle navigation">
+    <div class="menu  d-lg-none d-block">
+    <i class=" menu  fa-2x fas fa-bars"></i>
+  </div>
+  </div>
+ 
+      <div class="container-fluid">
+      
+        <!-- Toggle button -->
+      
+     
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse pt-2   "  id="navbarSupportedContent" >
+          <!-- Navbar brand -->
+          <!-- Left links -->
+          <ul class="navbar-nav col-md-8 me-auto  d-flex justify-content-center fs-5 " >
+            <li class="nav-item mx-2 ">
+              <a class="nav-link"  style="color: #000000;" routerLink="urgence">Urgence</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link"  style="color: #000000;" routerLink="rdv">Rendez-vous</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link"  style="color: #000000;" routerLink="meds">Medicaments</a>
+            </li>
+         
+            <li class="nav-item mx-2">
+              <a class="nav-link "  style="color: #000000;" routerLink="about">à propos</a>
+            </li>
+           
+          </ul>
+          <div class="col-md-4 d-block  ">
+            
+                
+              <ul class="list-unstyled  mt-lg-0 ">
+                <div class="row">
+                <div class="col-md-4">
+                <li class="nav-item mx-2 ">
+                    <a class="nav-link "  style="color: #EB4747; font-size: 20px;" [routerLink]="['/signin']" >Sign in</a>
+                  </li>
+                </div>
+                <div class="col-md-4">
+                <li class="nav-item mx-2 ">
+                    <a class="nav-link "  style="color: #EB4747; font-size: 20px;" [routerLink]="['/signup']" >Signup</a>
+                  </li></div>
+                <div class="col-md-4">
+                  <li class="nav-item mx-2 ">
+                  <div class="dropdown">
+  <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #EB4747; color:white;">
+FR  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">AR</a>
+   
+  </div>
+</div>
+                  </li>
+                </div>
+            </div>
+                </ul>
+          <!-- Left links -->
+        </div>
+        </div>
+      </div>
+  
+ 
+  <!-- Navbar -->
+  
